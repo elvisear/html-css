@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id    = em CSS é # (cerquilha)
+    em HTML é class = em CSS é . (ponto)
+*/
+body {
+    background-color: rgb(204, 243, 204);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    color: rgb(5, 75, 5);
+
+}
+/* Seletor personalizado */
+h1#principal {
+    text-align: center;
+    background-color: green;
+    color: ivory;
+}
+h2 {
+    color: rgb(29, 139, 29);
+}
+.basico {
+    color: #3c805e;
+
+}
+.intermediario {
+    color: #80793c;
+
+}
+.avancado {
+    color: #803c3c;
+
+}
+.destaque {
+    background-color: #c5c56070;
+}
